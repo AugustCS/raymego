@@ -1,0 +1,32 @@
+ul{
+    list-style: none;
+}
+.container{
+    background:#243c88;
+}
+.navr{
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.navr li {
+    padding: 15px;
+}
+.navr li a{
+    color:white;
+}
+.bodywhite{
+    background:white;
+}
+.bodyfooter{
+    background:#24292e;
+}
+table{
+    font-size: 14px;
+    text-align: center;
+}
+table ul{
+    list-style:circle;
+}
+footer{
+    color:white;
+}
