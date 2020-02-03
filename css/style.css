@@ -1,5 +1,5 @@
-a,p,span{
-    font-family: 'Crete Round', serif;
+a,p,span,th,tdanima{
+    font-family: 'PT Sans', sans-serif;
 }
 th{
     color: #243c88;
@@ -11,11 +11,16 @@ header{
     background:#243c88;
 }
 .navr{
-    margin-top: 35px;
+    margin-top: 50px;
     /* padding-left: 20px; */
 }
-.navr li {
+.navr li a{
     padding: 15px;
+    transition:all 0.5s linear;
+}
+.navr li:hover a{
+    background:white;
+    color:#243c88 !important;
 }
 .navr li a{
     color:white;
@@ -36,6 +41,8 @@ table ul{
 footer{
     color:white;
     margin-top: 30px;
+    padding: 20px;
+    padding-bottom: 10px;
 }
 h3{
     font-family: 'Acme', sans-serif;
